@@ -19,7 +19,7 @@ npm i
 npm start
 ```
 #### Access Application
-[Go to application page](http://localhost:3000)
+[http://localhost:3000](http://localhost:3000)
 
 
 #### Test Environment Configuration
