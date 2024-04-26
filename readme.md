@@ -7,6 +7,15 @@ Using MySQL as the database.
 ___
 
 ### Setting it up
+
+#### Launch your MySQL server
+Run these queries one by one:
+```
+CREATE SCHEMA IF NOT EXISTS school;
+CREATE USER 'ProjectAdmin' Identified by '0000'
+GRANT ALL ON school.* TO ProjectAdmin;
+```
+
 ```
 git clone https://github.com/sindre-gangeskar/graphql-rest-database.git
 ```
@@ -42,9 +51,9 @@ npm start
 
 ```
 HOST = "localhost"
-ADMIN_USERNAME = "ProjectAdmin"<b
+ADMIN_USERNAME = "ProjectAdmin"
 ADMIN_PASSWORD = "0000"
-DATABASE_NAME = "School"
+DATABASE_NAME = "school"
 DIALECT = "mysql"
 DIALECTMODEL = "mysql2"
 PORT = "3000"
