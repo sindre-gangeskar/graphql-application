@@ -3,14 +3,26 @@ In this project, I've integrated both RESTful and GraphQL approaches to showcase
 ___
 ## School Database with Relationships to Teachers and Students
 The database revolves around schools, teachers, and students, with simple relationships established between the models. Sequelize is utilized as the Object-Relational Mapping (ORM) tool.
+Using MySQL as the database. 
 ___
 
 ### Setting it up
 ```
-git clone 
+git clone https://github.com/sindre-gangeskar/graphql-rest-database.git
 ```
+#### Install Dependencies
+```
+npm i
+```
+#### Run Application
+```
+npm start
+```
+#### Access Application
+[Go to application page]('http://localhost:3000')
 
-### Test Environment Configuration
+
+#### Test Environment Configuration
 
 ```
 HOST = "localhost"
