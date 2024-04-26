@@ -15,7 +15,7 @@ CREATE SCHEMA IF NOT EXISTS school;
 CREATE USER 'ProjectAdmin' Identified by '0000'
 GRANT ALL ON school.* TO ProjectAdmin;
 ```
-
+#### Clone Repo
 ```
 git clone https://github.com/sindre-gangeskar/graphql-rest-database.git
 ```
